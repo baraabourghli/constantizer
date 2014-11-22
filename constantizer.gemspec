@@ -6,8 +6,8 @@ require 'constantizer/version'
 Gem::Specification.new do |spec|
   spec.name          = "constantizer"
   spec.version       = Constantizer::VERSION
-  spec.authors       = ["baraabourghli"]
-  spec.email         = ["baraa.bourghli@gmail.com"]
+  spec.authors       = ["Baraa Al-Bourghli", "Essam Arab"]
+  spec.email         = ["essam.a0@gmail.com", "baraa.bourghli@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
