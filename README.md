@@ -1,6 +1,11 @@
 # Constantizer
 
-TODO: Write a gem description
+Constantizer helps you manage your ruby constants to be used through out your application.
+
+### Features
+
+- Constants are added using YAML files.
+- Constants files support ERB.
 
 ## Installation
 
@@ -12,13 +17,19 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+And then execute:
 
-    $ gem install constantizer
+    $ bundle exec constantizer install
+
+Constants directory will be created: 
+
+    └── config
+        └── constants
+            └── common.yml
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: write code example.
 
 ## Contributing
 
