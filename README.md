@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/constantizer.svg)](http://badge.fury.io/rb/constantizer)
+
 # Constantizer
 
 Constantizer helps you manage your ruby constants to be used through out your application.
