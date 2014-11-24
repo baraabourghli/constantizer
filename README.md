@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/constantizer.svg)](http://badge.fury.io/rb/constantizer) [![Code Climate](https://codeclimate.com/github/baraabourghli/constantizer/badges/gpa.svg)](https://codeclimate.com/github/baraabourghli/constantizer) [![Code Climate](https://codeclimate.com/github/baraabourghli/constantizer/badges/gpa.svg)](https://codeclimate.com/github/baraabourghli/constantizer)
+[![Gem Version](https://badge.fury.io/rb/constantizer.svg)](http://badge.fury.io/rb/constantizer) [![Code Climate](https://codeclimate.com/github/baraabourghli/constantizer/badges/gpa.svg)](https://codeclimate.com/github/baraabourghli/constantizer) [![Test Coverage](https://codeclimate.com/github/baraabourghli/constantizer/badges/coverage.svg)](https://codeclimate.com/github/baraabourghli/constantizer)
 
 # Constantizer
 
