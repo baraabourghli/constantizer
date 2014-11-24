@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = Dir.glob('lib/**/*')
+  spec.executables   = ['constantizer']
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
