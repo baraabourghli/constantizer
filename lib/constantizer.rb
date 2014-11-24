@@ -1,5 +1,4 @@
-require "constantizer/version"
-require "constantizer/integration/sinatra"
+require 'constantizer/version'
 
 module Constantizer
 
@@ -12,3 +11,9 @@ module Constantizer
     load! @path
   end
 end
+
+# add rails integration
+require('constantizer/integration/rails') if defined?(::Rails)
+
+# add sinatra integration
+require('constantizer/integration/sinatra') if defined?(::Sinatra)
