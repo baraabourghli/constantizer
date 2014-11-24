@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'constantizer/tasks/install'
+
+args = ARGV.dup
+command = args.shift.strip rescue nil
+options = ARGV[1..-1]
+
+Rake::Task["constantizer:#{command}"].invoke
