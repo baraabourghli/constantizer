@@ -29,7 +29,7 @@ Constants directory will be created:
         └── constants
             └── common.yml
 
-## Configurating
+## Configurations
 
 You can configure the gem to use a specific directory other than the default. To achive that, in constantizer.rb file add the following:
 
