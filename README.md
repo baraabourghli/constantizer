@@ -42,7 +42,11 @@ now put the YAML files contaning the constants under that `special_directory`
 
 ## Usage
 
-TODO: write code example.
+Using the sample YAML file that comes with the gem's `$ bundle exec constantizer install` command, you can go to any class in your app and do the following:
+
+```ruby
+CURRENCIES.include?('USD')
+```
 
 ## Contributing
 
