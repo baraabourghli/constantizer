@@ -7,7 +7,7 @@ module Constantizer
   module Sinatra
     def self.registered(app)
       app.configure do |inner_app|
-        Constantizer.load!(File.join(inner_app.root, 'config', 'constants'))
+        Constantizer.load!(File.join(inner_app.root, Constantizer.configuration.directory))
 
         inner_app.use(Constantizer::Rack::Reloader) if inner_app.development?
       end

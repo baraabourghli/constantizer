@@ -1,4 +1,5 @@
 require 'constantizer/version'
+require 'constantizer/configuration'
 require 'erb'
 
 module Constantizer
@@ -10,6 +11,14 @@ module Constantizer
 
   def self.reload!
     load! @path
+  end
+
+  def self.configuration
+    @configuration ||= Configuration.new
+  end
+
+  def self.configure
+    yield(configuration)
   end
 end
 

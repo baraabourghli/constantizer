@@ -5,7 +5,7 @@ module Constantizer
         class Railtie < ::Rails::Railtie
           # load options after the application initializers are run
           config.after_initialize do
-            ::Constantizer.load!(::Rails.root.join('config', 'constants'))
+            ::Constantizer.load!(::Rails.root.join(::Constantizer.configuration.directory))
           end
 
           # rails dev environment should reload the options on every request
