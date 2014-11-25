@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'constantizer/tasks/install'
+require 'constantizer/tasks/all'
 
 args = ARGV.dup
 command = args.shift.strip rescue nil
