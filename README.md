@@ -29,6 +29,17 @@ Constants directory will be created:
         └── constants
             └── common.yml
 
+## Configurating
+
+You can configure the gem to use a specific directory other than the default. To achive that, in constantizer.rb file add the following:
+
+```ruby
+Constantizer.configure do |config|
+  config.directory = 'special_directory'
+end
+```  
+now put the YAML files contaning the constants under that `special_directory`
+
 ## Usage
 
 TODO: write code example.
