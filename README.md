@@ -44,7 +44,16 @@ now put the YAML files contaning the constants under that `special_directory`
 
 Constantizer allow you to create constants that are accessible from everywhere in your app.
 
-Using the sample YAML file that comes with the gem's `$ bundle exec constantizer install` command, you can go to any class in your app and do the following:
+Given the following YAML file
+
+```yml
+CURRENCIES:
+  - USD
+  - EUR
+DEFAULT_CURRENCY: <%= CURRENCIES.first %>
+```
+
+you can go to anywhere in your app and do the following:
 
 ```ruby
 CURRENCIES.include?('USD')
