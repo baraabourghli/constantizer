@@ -47,13 +47,13 @@ Constantizer allow you to create constants that are accessible from everywhere i
 Given the following YAML file
 
 ```yml
-CURRENCIES:
+currencies:
   - USD
   - EUR
-DEFAULT_CURRENCY: <%= CURRENCIES.first %>
+default_currency: <%= CURRENCIES.first %>
 ```
 
-you can go to anywhere in your app and do the following:
+You can go to anywhere in your app and do the following:
 
 ```ruby
 CURRENCIES.include?('USD')
