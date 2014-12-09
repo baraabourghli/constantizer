@@ -1,6 +1,7 @@
 require 'constantizer/version'
 require 'constantizer/configuration'
 require 'erb'
+require 'yaml'
 
 module Constantizer
 
