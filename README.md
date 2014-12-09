@@ -7,7 +7,6 @@ Constantizer helps you manage your ruby constants to be used through out your ap
 ### Features
 
 - Constants are added using YAML files.
-- Constants files support ERB.
 
 ## Installation
 
@@ -50,7 +49,7 @@ Given the following YAML file
 currencies:
   - USD
   - EUR
-default_currency: <%= CURRENCIES.first %>
+default_currency: USD
 ```
 
 You can go to anywhere in your app and do the following:
