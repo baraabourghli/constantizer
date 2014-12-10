@@ -1,14 +1,14 @@
 require 'constantizer/version'
 require 'constantizer/configuration'
-require 'erb'
+require 'yaml'
 
 module Constantizer
 
   def self.load!(path)
     @path = path
     Dir.glob(File.join(path,'/*.yml')).each do |file|
-      YAML.load(ERB.new(IO.read(file)).result).each do |k, v|
-        Kernel.const_set k.upcase, v
+      YAML.load(IO.read(file)).each do |key, value|
+        Kernel.const_set(key.upcase, value)
       end
     end
   end

@@ -1,4 +1,4 @@
-CURRENCIES:
+currencies:
   - USD
   - EUR
-DEFAULT_CURRENCY: <%= CURRENCIES.first %>
+default_currency: USD
