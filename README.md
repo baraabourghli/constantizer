@@ -55,7 +55,7 @@ default_currency: USD
 You can go to anywhere in your app and do the following:
 
 ```ruby
-CURRENCIES.include?('USD')
+CURRENCIES.include?('USD')     #=> true
 ```
 
 ## Contributing
