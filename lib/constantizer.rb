@@ -31,3 +31,4 @@ require('constantizer/integration/rails') if defined?(::Rails)
 
 # add sinatra integration
 require('constantizer/integration/sinatra') if defined?(::Sinatra)
+
