@@ -12,7 +12,7 @@ module Constantizer
           if ::Rails.env.development?
             initializer :rails_config_reload_on_development do
               ActionController::Base.class_eval do
-                prepend_before_filter { ::Constantizer.reload! }
+                prepend_before_action { ::Constantizer.reload! }
               end
             end
           end
